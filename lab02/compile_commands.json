@@ -1,0 +1,22 @@
+[
+  {
+    "directory": "/home/gui/Documentos/engenharia_eletronica/2026/s2/sistemas/lab02",
+    "command": "gcc -std=c99 -Wall -Wextra -g -Isrc -IUnity -c tests/test_queue.c",
+    "file": "tests/test_queue.c"
+  },
+  {
+    "directory": "/home/gui/Documentos/engenharia_eletronica/2026/s2/sistemas/lab02",
+    "command": "gcc -std=c99 -Wall -Wextra -g -Isrc -IUnity -c src/testafila.c",
+    "file": "src/testafila.c"
+  },
+  {
+    "directory": "/home/gui/Documentos/engenharia_eletronica/2026/s2/sistemas/lab02",
+    "command": "gcc -std=c99 -Wall -Wextra -g -Isrc -IUnity -c src/queue.c",
+    "file": "src/queue.c"
+  },
+  {
+    "directory": "/home/gui/Documentos/engenharia_eletronica/2026/s2/sistemas/lab02",
+    "command": "gcc -std=c99 -Wall -Wextra -g -Isrc -IUnity -c Unity/unity.c",
+    "file": "Unity/unity.c"
+  }
+]

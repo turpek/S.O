@@ -1,0 +1,5 @@
+-Isrc
+-IUnity
+-std=c99
+-Wall
+-Wextra

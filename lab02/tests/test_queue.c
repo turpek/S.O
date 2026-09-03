@@ -460,7 +460,7 @@ void test_queue_remove_elemento_do_meio(){
 int main(){
   UNITY_BEGIN();
 
-  // Testando a função queue_append
+  printf("\n============== Testes unitários da função 'queue_append' ==============\n\n");
   RUN_TEST(test_queue_append_com_fila_NULL);
   RUN_TEST(test_queue_append_com_elemento_NULL);
   RUN_TEST(test_queue_append_com_fila_e_elemento_NULL);
@@ -472,33 +472,33 @@ int main(){
   RUN_TEST(test_queue_append_duas_vezes_o_mesmo_elemento);
   RUN_TEST(test_queue_append_elemento_de_outra_fila);
 
-  // Testando a função queue_size
-  // RUN_TEST(test_queue_size_com_fila_vazia);
-  // RUN_TEST(test_queue_size_com_fila_contendo_um_elemento);
-  // RUN_TEST(test_queue_size_com_fila_contendo_tres_elementos);
+  printf("\n============== Testes unitários da função 'queue_size' ==============\n\n");
+  RUN_TEST(test_queue_size_com_fila_vazia);
+  RUN_TEST(test_queue_size_com_fila_contendo_um_elemento);
+  RUN_TEST(test_queue_size_com_fila_contendo_tres_elementos);
 
-  // // Testando a função queue_print
-  // RUN_TEST(test_queue_print_com_fila_vazia);
-  // RUN_TEST(test_queue_print_com_fila_contendo_um_elemento);
-  // RUN_TEST(test_queue_print_com_fila_contendo_tres_elementos);
+  printf("\n============== Testes unitários da função 'queue_print' ==============\n\n");
+  RUN_TEST(test_queue_print_com_fila_vazia);
+  RUN_TEST(test_queue_print_com_fila_contendo_um_elemento);
+  RUN_TEST(test_queue_print_com_fila_contendo_tres_elementos);
 
 
-  // // --- Casos de Erro / Validações de Parâmetros (< 0) ---
-  // RUN_TEST(test_queue_remove_com_fila_NULL);
-  // RUN_TEST(test_queue_remove_com_elemento_NULL);
-  // RUN_TEST(test_queue_remove_com_fila_e_elemento_NULL);
-  // RUN_TEST(test_queue_remove_com_fila_vazia);
-  // RUN_TEST(test_queue_remove_elemento_isolado_fora_da_fila);
-  // RUN_TEST(test_queue_remove_elemento_de_outra_fila);
-  // RUN_TEST(test_queue_remove_duas_vezes_o_mesmo_elemento);
+  printf("\n============== Testes unitários da função 'queue_remove' ==============\n\n");
+  RUN_TEST(test_queue_remove_com_fila_NULL);
+  RUN_TEST(test_queue_remove_com_elemento_NULL);
+  RUN_TEST(test_queue_remove_com_fila_e_elemento_NULL);
+  RUN_TEST(test_queue_remove_com_fila_vazia);
+  RUN_TEST(test_queue_remove_elemento_isolado_fora_da_fila);
+  RUN_TEST(test_queue_remove_elemento_de_outra_fila);
+  RUN_TEST(test_queue_remove_duas_vezes_o_mesmo_elemento);
 
   // --- Casos de Sucesso (Retorno 0) ---
-  // RUN_TEST(test_queue_remove_unico_elemento);
-  // RUN_TEST(test_queue_remove_primeiro_elemento_de_dois);
-  // RUN_TEST(test_queue_remove_segundo_elemento_de_dois);
-  // RUN_TEST(test_queue_remove_primeiro_elemento_de_tres);
-  // RUN_TEST(test_queue_remove_ultimo_elemento_de_tres);
-  // RUN_TEST(test_queue_remove_elemento_do_meio);
+  RUN_TEST(test_queue_remove_unico_elemento);
+  RUN_TEST(test_queue_remove_primeiro_elemento_de_dois);
+  RUN_TEST(test_queue_remove_segundo_elemento_de_dois);
+  RUN_TEST(test_queue_remove_primeiro_elemento_de_tres);
+  RUN_TEST(test_queue_remove_ultimo_elemento_de_tres);
+  RUN_TEST(test_queue_remove_elemento_do_meio);
 
   return UNITY_END();
 }
